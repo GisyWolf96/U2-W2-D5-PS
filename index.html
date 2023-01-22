@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,700;1,300&display=swap"
+    rel="stylesheet">
+<link rel="stylesheet" href="./scss/app.css" />
+<title>Autoriparazioni</title>
+</head>
+
+<body>
+<header>
+    <nav class="px-5">
+        <div class="navI fs-5 fw-bold">
+            <img src="./assets/img/service-center-logo.jpg" alt="autoriparazioni logo" />
+            <select>
+                <option>Home</option>
+                <option>I nostri servizi</option>
+                <option>Ricambi</option>
+            </select>
+            <ul>
+                <li><a href="#" target="_blank">Home</a></li>
+                <li><a href="#" target="_blank">I nostri servizi</a></li>
+                <li><a href="#" target="_blank">Ricambi</a></li>
+            </ul>
+
+        </div>
+        <div>
+            <form class="pb-3">
+                <input type="search" placeholder="Search" aria-label="Search">
+                <button class="btn-platinum" type="submit"><i class="bi bi-search"></i> Cerca</button>
+            </form>
+        </div>
+    </nav>
+</header>
+<main class="mx-4">
+    <article class="container mx-auto my-4 p-1 d-md-flex">
+        <img src="assets/img/scrrem.jpg" alt="Autovetture" />
+        <div class="container d-flex flex-column justify-content-center">
+            <h1 class="fs-1 fw-bold">Info</h1>
+            <p class="fs-5">Le principali attività sono nella riparazione meccanica di Autobus, Autocarri, Autogru ed Autovetture con un reparto specializzato nella revisione di Cambi Automatici e Meccanici.</p>
+        </div>
+    </article>
+    <section class="my-5">
+        <h2 class="p-2 fs-2 fw-bold">MARCHI</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-3 d-flex justify-content-center">
+                    <img class="image py-2" src=".//assets/img/fiat.jpg" alt="fiatlogo" />
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 d-flex justify-content-center">
+                    <img class="image py-2" src="./assets/img/Iveco_logo.png"alt= "iveco logo" />
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 d-flex justify-content-center">
+                    <img class="image py-2" src="./assets/img/vdo.png" alt="vdo logo" />
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 d-flex justify-content-center">
+                    <img class="image py-2" src="./assets/img/landerenzo.jpg" alt="landerenzo logo" />
+                </div>
+            </div>
+        </div>
+    </section>
+    <aside class="mb-5 fw-bold">
+        <h2 class="p-2 text-center fs-2 fw-bold">Officina</h2>
+        <div class="container mt-4" id="main">
+            <div class="row justify-content-center">
+                <div class="col col-12 col-md-8 col-lg-6">
+                    <!-- INIZIO CAROUSEL -->
+                    <div id="carouselExampleCaptions" class="carousel slide">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                                aria-label="Slide 4"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img id="picture" src="./assets/img/img.jpg" class="d-block w-100"
+                                    alt="picture1" />
+                                <div id="textO" class="carousel-caption d-none d-md-block">
+                                    <h5 class="fs-3">Nuovo servizio</h5>
+                                    <p>
+                                        Rimappature delle centraline, puoi ottenere il massimo dalla tua auto, dall’aumento dei cavalli all’eliminazione del fap.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img id="picture" src="./assets/img/img1.jpg" class="d-block w-100"
+                                    alt="picture2" />
+                                <div id="textO" class="carousel-caption d-none d-md-block">
+                                    <h5 class="fs-3">Servizio</h5>
+                                    <p>
+                                       L'officina presenta un'ambiente sicuro e sempre controllato da ogni imprevvisto
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img id="picture" src="./assets/img/img2.jpg" class="d-block w-100" alt="wine pic" />
+                                <div id="textO" class="carousel-caption d-none d-md-block">
+                                    <h5 class="fs-3">Sconti</h5>
+                                    <p>
+                                        Sconto del 5% su controllo cristalli,se  il cliente ritorna da noi
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img id="picture" src="./assets/img/img3.jpg" class="d-block w-100" alt="picture3" />
+                                <div id="textO" class="carousel-caption d-none d-md-block">
+                                    <h5 class="fs-3">Il cliente prima di tutto!</h5>
+                                    <p>
+                                        Cerchiamo sempre di soddisfare al pù presto tutti i problemi, soddisfati o rimborzati
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button"
+                            data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button"
+                            data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    <!-- FINE CAROUSEL -->
+                </div>
+            </div>
+    </aside>
+    <footer class="py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center text-light">
+                    <ul class="list-unstyled d-flex flex-column h-100 justify-content-center mb-0">
+                        <li>
+                            <i class="bi bi-facebook p-4"> Facebook</i>
+                        </li>
+                        <li>
+                            <i class="bi bi-twitter p-4"> Twitter</i>
+                        </li>
+                        <li>
+                            <i class="bi bi-linkedin p-4"> Linkedin</i>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="col text-center d-flex flex-column justify-content-center fw-bold">
+                      Autoriparazioni&copy; 
+                      
+                </div>
+                <div class="col text-center">
+                    <ul class="list-unstyled d-flex flex-column h-100 justify-content-center mb-0">
+                        <li>
+                            <a class="text-decoration-none text-light" href="#">Contattaci</a>
+                      
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</main>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+crossorigin="anonymous">
+
+   </script>
+</body>
+</html>

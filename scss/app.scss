@@ -1,0 +1,109 @@
+@import "./partials/reset";
+@import "./partials/variables";
+@import "./partials/mixin";
+@import "./partials/functions";
+@import "./partials/buttons";
+
+body {
+  font-family: "Cormorant Garamond", serif;
+}
+
+header {
+  nav {
+    background-color: $celadon-green;
+    border-bottom: $border $purple-navy;
+    @include d-flex;
+    @media screen and (max-width: 768px) {
+      @include d-flex-column;
+    }
+    .nav-1 {
+      @include d-flex-start;
+      img {
+        width: 170px;
+        height: 130px;
+      }
+      select {
+        padding: em(8px);
+        border-bottom: $border $purple-navy;
+        background-color: $platinum;
+        border-radius: em(16px);
+        @media screen and (min-width: 768px) {
+          display: none;
+        }
+      }
+      ul {
+        list-style-type: none;
+        @include d-flex;
+        @media screen and (max-width: 768px) {
+          display: none;
+        }
+        li {
+          a {
+            text-decoration: none;
+            color: black;
+          }
+          @media screen and (min-width: 768px) {
+            @include d-flex;
+            padding: em(8px) em(16px);
+            border-right: $border $purple-navy;
+          }
+        }
+      }
+      @media screen and (max-width: 320px) {
+        @include d-flex-column;
+        padding-bottom: em(14px);
+      }
+    }
+    .nav-2 {
+      @include d-flex-column;
+      i {
+        font-size: em(20px);
+        &:hover {
+          cursor: pointer;
+        }
+        @media screen and (max-width: 768px) {
+          display: none;
+        }
+      }
+    }
+    form {
+      @media screen and (max-width: 768px) {
+        @include d-flex;
+      }
+      input {
+        border-radius: em(16px);
+      }
+    }
+  }
+}
+
+main {
+  article {
+    background-color: $celadon-green;
+    img {
+      width: 222px;
+    }
+  }
+  section {
+    background-color: $platinum;
+    .image {
+      width: 200px;
+      height: 180px;
+    }
+  }
+  aside {
+    background-color: $platinum;
+    #pictureC {
+      width: 250px;
+      height: 500px;
+    }
+    #textC {
+      background-color: $platinum-transparent;
+      color: $dark-green;
+    }
+  }
+}
+
+footer {
+  background-color: $celadon-green;
+}
