@@ -16,7 +16,7 @@ header {
     @media screen and (max-width: 768px) {
       @include d-flex-column;
     }
-    .nav-1 {
+    .navI {
       @include d-flex-start;
       img {
         width: 170px;
@@ -93,11 +93,8 @@ main {
   }
   aside {
     background-color: $platinum;
-    #pictureC {
-      width: 250px;
-      height: 500px;
-    }
-    #textC {
+  
+    #textO {
       background-color: $platinum-transparent;
       color: $dark-green;
     }
