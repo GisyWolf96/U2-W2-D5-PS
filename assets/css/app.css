@@ -14,10 +14,12 @@ html {
     font-size: 14pt;
     font-family: arial,helvetica,sans-serif;
 }
+
   a {
     text-decoration: none;
   }
   
+  /*LISTA*/
   ul li {
     list-style-type: none;
   }
@@ -31,7 +33,7 @@ html {
   }
   
   
-  
+  /*HEADER NAV*/
   header nav {
     background-color: rgb(14, 13, 13);
     border-bottom: 1px solid #4b4e55;
@@ -127,7 +129,7 @@ html {
   header nav form input {
     border-radius: 1em;
   }
-  
+  /*MAIN*/
   main article {
     background-color: #6f7575;
   }
